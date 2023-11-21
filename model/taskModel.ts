@@ -7,7 +7,7 @@ interface iTask{
     email: string
     password: string 
     project: string
-}
+};
 
 interface iTaskData extends iTask, Document{};
 
